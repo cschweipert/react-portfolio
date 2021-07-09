@@ -1,5 +1,4 @@
 import React from "react";
-// import Morning from "../css/morning.png";
 
 function Landing() {
 
