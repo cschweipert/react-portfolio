@@ -11,19 +11,19 @@ function Header() {
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a id="projectslink" class="nav-link" href="#projects">Projects</a>
+            <a id="projectslink" class="nav-link" href="#projects">PROJECTS</a>
           </li>
           <li class="nav-item">
-            <a id="skillslink" class="nav-link" href="#skills">Toolbelt</a>
+            <a id="skillslink" class="nav-link" href="#skills">TOOLBELT</a>
           </li>
           <li class="nav-item">
-            <a id="aboutlink" class="nav-link" href="#about">About</a>
+            <a id="aboutlink" class="nav-link" href="#about">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./resume/resume_christinaschweipert.pdf">Resume</a>
+            <a class="nav-link" href="./resume/resume_christinaschweipert.pdf">RESUME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="mailto:c.schweipert@gmail.com">Get in touch</a>
+            <a class="nav-link" href="mailto:c.schweipert@gmail.com">GET IN TOUCH</a>
           </li>
         </ul>
       </div>

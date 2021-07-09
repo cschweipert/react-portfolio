@@ -26,7 +26,7 @@ function Projects() {
                   MongoDB</div>
               </div>
             </div>
-            <a href="https://bearsmart.herokuapp.com" class="projectBtn" title="Link to fruitsharing app"></a>
+            <a href="https://bearsmart.herokuapp.com" class="projectBtn" title="Link to fruitsharing app"> </a>
           </div>
         </div>
 
@@ -51,7 +51,7 @@ function Projects() {
                   PostgreSQL</div>
               </div>
             </div>
-            <a href="http://horizondurango.com/" class="horizonBtn" title="Link button to fruitshare webapp"></a>
+            <a href="http://horizondurango.com/" class="horizonBtn" title="Link button to fruitshare webapp"> </a>
           </div>
         </div>
       </div>
