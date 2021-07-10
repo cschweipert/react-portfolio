@@ -9,6 +9,31 @@ function Projects() {
           <div class="card">
             <div class="card-body">
               <div class="listing-heading text-center">
+                <h3>Warbler (A Twitter Clone)<a class="gitlink" href="https://github.com/cschweipert/flask-warbler"><i
+                  class="fab fa-github"></i></a></h3>
+              </div>
+              <hr></hr>
+              <div class="row py-2 text-secondary">
+                <div class="col-6">
+                <i class="fab fa-python"></i> Python</div>
+                <div class="col-6">
+                <i class=""></i> Flask</div>
+              </div>
+              <div class="row py-2 text-secondary">
+                <div class="col-6">
+                  Jinja</div>
+                <div class="col-6">
+                  PostgreSQL</div>
+              </div>
+            </div>
+            <a href="https://christina-warbler.herokuapp.com" class="warblerBtn" title="Link to warbler app"> </a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <div class="listing-heading text-center">
                 <h3>Fruitsharing App <a class="gitlink" href="https://github.com/cschweipert/fruitshare"><i
                   class="fab fa-github"></i></a></h3>
               </div>
