@@ -7,7 +7,7 @@ function Skills() {
 
       {/* <h3 className="tools">My tools:</h3> */}
       <div class="grid-container">
-        <ul>
+        <ul class="skills-list">
           <li> Structure & Design:<br></br>
             <h4 class="h4top"><i class="fab fa-html5 skills"></i>HTML5</h4>
             <h4><i class="fab fa-css3-alt skills"></i>CSS3</h4>

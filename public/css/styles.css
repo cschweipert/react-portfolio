@@ -148,7 +148,7 @@ h2 {
 h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 img {
@@ -156,12 +156,11 @@ img {
   border-radius: 25px;
 }
 
-p {
-  padding: 30px;
+.project-p {
+  padding: 50px 20px 20px;
   font-family: "Montserrat", sans-serif;
   line-height: 2;
   margin: 0;
-  padding-top: 0;
 }
 
 .container {
@@ -232,6 +231,10 @@ p {
 }
 
 /* Skills container */
+.skills-list {
+  list-style-type: none;
+}
+
 .skills-container {
   display: flex;
   flex-direction: column;
@@ -294,7 +297,7 @@ h4 {
   margin-right: auto;
 }
 
-p {
+.about-p {
   padding: 50px;
   font-family: "Montserrat", sans-serif;
   line-height: 2;
