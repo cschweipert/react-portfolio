@@ -3,31 +3,33 @@ import React from "react";
 function Header() {
   return <header>
 
-    <nav id="myTopnav" class="navbar navbar-expand-md topnav">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars hamburger"></i>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a id="projectslink" class="nav-link" href="#projects">PROJECTS</a>
-          </li>
-          <li class="nav-item">
-            <a id="skillslink" class="nav-link" href="#skills">TOOLBELT</a>
-          </li>
-          <li class="nav-item">
-            <a id="aboutlink" class="nav-link" href="#about">ABOUT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./resume/resume_christinaschweipert.pdf">RESUME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="mailto:c.schweipert@gmail.com">GET IN TOUCH</a>
-          </li>
-        </ul>
+    <nav id="myTopnav" class="navbar navbar-expand-lg mynav">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fas fa-bars hamburger"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#projects">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">TOOLBELT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about" tabindex="-1" aria-disabled="true">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./resume/resume_christinaschweipert.pdf" tabindex="-1" aria-disabled="true">RESUME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:c.schweipert@gmail.com" tabindex="-1" aria-disabled="true">GET IN TOUCH</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
+
   </header>
 }
 
