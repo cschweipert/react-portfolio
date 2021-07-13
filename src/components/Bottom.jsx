@@ -11,7 +11,7 @@ function Bottom() {
     <a href="https://www.linkedin.com/in/christina-schweipert/">
       <i className="fab fa-linkedin fa-2x socialicon" title="icon link to linkedin"></i><br></br><br></br>
     </a>
-    <a href="#top" className="upBtn">
+    <a href="#projects" className="upBtn">
       <i className="fas fa-angle-double-up fa-1x uparrow" title="link to top"></i>
     </a>
   </div>
