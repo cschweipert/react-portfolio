@@ -142,7 +142,6 @@ h2 {
 }
 
 .row {
-  color: #333333 !important;
   margin: 30px auto;
   max-width: 50rem;
 }
@@ -153,7 +152,7 @@ h2 {
 
 .tech {
   color: #333333;
-  font-family: "Roboto Mono",monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 h3 {
@@ -179,10 +178,23 @@ img {
   padding-bottom: 50px;
 }
 
+.project-link {
+  text-decoration: none;
+  font-weight: 600;
+  color: #333333;
+  font-family: "Roboto Mono", monospace;
+  padding-right: 15px;
+}
+
+.project-link:hover {
+  color: #F0134D;
+}
+
 .gitlink {
   text-decoration: none;
   font-weight: 600;
   color: #333333;
+  padding-left: 15px;
 }
 
 .gitlink:hover {
