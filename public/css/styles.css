@@ -153,7 +153,7 @@ h2 {
 
 .tech {
   color: #333333;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Mono",monospace;
 }
 
 h3 {
@@ -274,7 +274,7 @@ img {
 }
 
 h4 {
-  font-family: "Rubik", sans-serif;
+  font-family: "Roboto Mono", monospace;
   font-weight: bolder;
   color: #40bfc1;
   font-size: 1.2rem;
