@@ -25,7 +25,7 @@ function Landing() {
   return <div id="top" style={customStyle} className="top-container">
     <h1 className="greeting">{greeting}<br></br></h1>
     <h1>I'm <span className="name">Christina</span>.<br></br>
-      A <span className="title">Developer</span>.</h1>
+      A <span className="title">Software Engineer</span>.</h1>
     <a href="#projects" className="meBtn" title="Link button to about section">Meet me!</a>
   </div>
 }

@@ -13,17 +13,18 @@ function Projects() {
                   class="fab fa-github"></i></a></h3>
               </div>
               <hr></hr>
-              <div class="row py-2 text-secondary">
-                <div class="col-6">
+              <div class="row">
+                <h4 className="tech">Python, Flask, Jinja, PostgreSQL</h4>
+                {/* <div class="col-6">
                   <i class="fab fa-python"></i> Python</div>
                 <div class="col-6">
                   <i class=""></i> Flask</div>
               </div>
-              <div class="row py-2 text-secondary">
+              <div class="row">
                 <div class="col-6">
                   Jinja</div>
                 <div class="col-6">
-                  PostgreSQL</div>
+                  PostgreSQL</div> */}
               </div>
               <div>
                 <p className="project-p">A Twitter clone with a Flask/ PostgreSQL backend and JS with Jinja templates in the front.<br></br>
@@ -37,8 +38,9 @@ function Projects() {
             <a href="https://christina-warbler.herokuapp.com" class="warblerBtn" title="Link to warbler app"> </a>
           </div>
         </div>
+      </div>
 
-        {/* <div class="col">
+      {/* <div class="col">
           <div class="card">
             <div class="card-body">
               <div class="listing-heading text-center">
@@ -46,13 +48,13 @@ function Projects() {
                   class="fab fa-github"></i></a></h3>
               </div>
               <hr></hr>
-              <div class="row py-2 text-secondary">
+              <div class="row">
                 <div class="col-6">
                   <i class="fab fa-js-square"></i> JavaScript</div>
                 <div class="col-6">
                   <i class="fab fa-node"></i> Node/ Express</div>
               </div>
-              <div class="row py-2 text-secondary">
+              <div class="row">
                 <div class="col-6">
                   Esri API</div>
                 <div class="col-6">
@@ -73,6 +75,7 @@ function Projects() {
           </div>
         </div> */}
 
+      <div class="row">
         <div class="col">
           <div class="card">
             <div class="card-body">
@@ -81,8 +84,9 @@ function Projects() {
                   href="https://github.com/cschweipert/django-horizon-property"><i class="fab fa-github"></i></a></h3>
               </div>
               <hr></hr>
-              <div class="row py-2 text-secondary">
-                <div class="col-6">
+              <div class="row">
+                <h4 className="tech">Python, Django, Jinja, PostgreSQL, MLS PLugin</h4>
+                {/* <div class="col-6">
                   <i class="fab fa-python"></i> Python</div>
                 <div class="col-6">
                   <i class=""></i> Django</div>
@@ -91,12 +95,12 @@ function Projects() {
                 <div class="col-6">
                   MLS Plugin</div>
                 <div class="col-6">
-                  PostgreSQL</div>
+                  PostgreSQL</div> */}
               </div>
               <div>
                 <p className="project-p">A real estate website for a local real estate agency. <br />
-                A Python-Django app with a PostgreSQL database. <br />
-                Agents can login into the admin area and edit, update and delete real estate listings.
+                  A Python-Django app with a PostgreSQL database. <br />
+                  Agents can login into the admin area and edit, update and delete real estate listings.
                 </p>
               </div>
             </div>

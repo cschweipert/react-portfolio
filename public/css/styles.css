@@ -143,6 +143,13 @@ h2 {
 
 .row {
   color: #333333 !important;
+  margin: 30px auto;
+  max-width: 50rem;
+}
+
+.tech {
+  color: #333333;
+  font-family: "Montserrat", sans-serif;
 }
 
 h3 {
