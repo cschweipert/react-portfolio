@@ -9,11 +9,10 @@ function Projects() {
           <div class="card">
             <div class="card-body">
               <div class="listing-heading text-center">
-                <h3>Warbler <a class="gitlink" href="https://github.com/cschweipert/flask-warbler"><i
-                  class="fab fa-github"></i></a></h3>
+                <h3>Warbler</h3>
               </div>
               <hr></hr>
-              <div class="row">
+              <div class="row techrow">
                 <h4 className="tech">Python, Flask, Jinja, PostgreSQL</h4>
                 {/* <div class="col-6">
                   <i class="fab fa-python"></i> Python</div>
@@ -33,6 +32,7 @@ function Projects() {
                   An authorized user can like/ unlike warbels (tweets) of followed users but not their own.
                   An authorized user can edit their profile.
                 </p>
+                <h3><a class="gitlink" href="https://github.com/cschweipert/flask-warbler"><i class="fab fa-github"></i></a></h3>
               </div>
             </div>
             <a href="https://christina-warbler.herokuapp.com" class="warblerBtn" title="Link to warbler app"> </a>
@@ -80,11 +80,10 @@ function Projects() {
           <div class="card">
             <div class="card-body">
               <div class="listing-heading text-center">
-                <h3>Real Estate Website <a class="gitlink"
-                  href="https://github.com/cschweipert/django-horizon-property"><i class="fab fa-github"></i></a></h3>
+                <h3>Real Estate Website</h3>
               </div>
               <hr></hr>
-              <div class="row">
+              <div class="row techrow">
                 <h4 className="tech">Python, Django, Jinja, PostgreSQL, MLS PLugin</h4>
                 {/* <div class="col-6">
                   <i class="fab fa-python"></i> Python</div>
@@ -102,6 +101,7 @@ function Projects() {
                   A Python-Django app with a PostgreSQL database. <br />
                   Agents can login into the admin area and edit, update and delete real estate listings.
                 </p>
+                <h3><a class="gitlink" href="https://github.com/cschweipert/django-horizon-property"><i class="fab fa-github"></i></a></h3>
               </div>
             </div>
             <a href="http://horizondurango.com/" class="horizonBtn" title="Link button to fruitshare webapp"> </a>
