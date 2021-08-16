@@ -5,6 +5,7 @@ function Header() {
 
     <nav id="myTopnav" class="navbar navbar-expand-lg mynav">
       <div class="container-fluid">
+        {/* <a class="navbar-brand" href="#About">Christina Schweipert</a> */}
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="fas fa-bars hamburger"></span>
         </button>

@@ -14,16 +14,6 @@ function Projects() {
               <hr></hr>
               <div class="row techrow">
                 <h4 className="tech">Python, Flask, Jinja, PostgreSQL</h4>
-                {/* <div class="col-6">
-                  <i class="fab fa-python"></i> Python</div>
-                <div class="col-6">
-                  <i class=""></i> Flask</div>
-              </div>
-              <div class="row">
-                <div class="col-6">
-                  Jinja</div>
-                <div class="col-6">
-                  PostgreSQL</div> */}
               </div>
               <div>
                 <p className="project-p">A Twitter clone with a Flask/ PostgreSQL backend and JS with Jinja templates in the front.<br></br>
@@ -85,16 +75,6 @@ function Projects() {
               <hr></hr>
               <div class="row techrow">
                 <h4 className="tech">Python, Django, Jinja, PostgreSQL, MLS PLugin</h4>
-                {/* <div class="col-6">
-                  <i class="fab fa-python"></i> Python</div>
-                <div class="col-6">
-                  <i class=""></i> Django</div>
-              </div>
-              <div class="row py-2 text-secondary">
-                <div class="col-6">
-                  MLS Plugin</div>
-                <div class="col-6">
-                  PostgreSQL</div> */}
               </div>
               <div>
                 <p className="project-p">A real estate website for a local real estate agency. <br />
@@ -104,7 +84,8 @@ function Projects() {
                 <h4 className="tech"><a className="project-link" href="https://github.com/cschweipert/django-horizon-property">Live</a>|<a class="gitlink" href="https://github.com/cschweipert/django-horizon-property"><i class="fab fa-github"></i></a></h4>
               </div>
             </div>
-            <a href="http://horizondurango.com/" class="horizonBtn" title="Link button to fruitshare webapp"> </a>
+            <a href="http://horizonreal.estate/" class="horizonBtn" title="Links to horizon website"> </a>
+            {/* <video src="/public/media/jobly-recording.mp4" loop autoplay playsinline></video> */}
           </div>
         </div>
       </div>
