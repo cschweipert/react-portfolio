@@ -81,7 +81,7 @@ function Projects() {
                   A Python-Django app with a PostgreSQL database. <br />
                   Agents can login into the admin area and edit, update and delete real estate listings.
                 </p>
-                <h4 className="tech"><a className="project-link" href="https://github.com/cschweipert/django-horizon-property">Live</a>|<a class="gitlink" href="https://github.com/cschweipert/django-horizon-property"><i class="fab fa-github"></i></a></h4>
+                <h4 className="tech"><a className="project-link" href="http://horizonreal.estate/">Live</a>|<a class="gitlink" href="https://github.com/cschweipert/django-horizon"><i class="fab fa-github"></i></a></h4>
               </div>
             </div>
             <a href="http://horizonreal.estate/" class="horizonBtn" title="Links to horizon website"> </a>
