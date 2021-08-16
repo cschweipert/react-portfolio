@@ -9,6 +9,31 @@ function Projects() {
           <div class="card">
             <div class="card-body">
               <div class="listing-heading text-center">
+                <h3>Real Estate Website</h3>
+              </div>
+              <hr></hr>
+              <div class="row techrow">
+                <h4 className="tech">Python, Django, Jinja, PostgreSQL, MLS PLugin</h4>
+              </div>
+              <div>
+                <p className="project-p">A real estate website for a local real estate agency. <br />
+                  A Python-Django app with a PostgreSQL database. <br />
+                  Agents can login into the admin area and edit, update and delete real estate listings.
+                </p>
+                <h4 className="tech"><a className="project-link" href="http://horizonreal.estate/">Live</a>|<a class="gitlink" href="https://github.com/cschweipert/django-horizon"><i class="fab fa-github"></i></a></h4>
+              </div>
+            </div>
+            <a href="http://horizonreal.estate/" class="horizonBtn" title="Links to horizon website"> </a>
+            {/* <video src="/public/media/jobly-recording.mp4" loop autoplay playsinline></video> */}
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <div class="listing-heading text-center">
                 <h3>Warbler</h3>
               </div>
               <hr></hr>
@@ -65,30 +90,6 @@ function Projects() {
           </div>
         </div> */}
 
-      <div class="row">
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <div class="listing-heading text-center">
-                <h3>Real Estate Website</h3>
-              </div>
-              <hr></hr>
-              <div class="row techrow">
-                <h4 className="tech">Python, Django, Jinja, PostgreSQL, MLS PLugin</h4>
-              </div>
-              <div>
-                <p className="project-p">A real estate website for a local real estate agency. <br />
-                  A Python-Django app with a PostgreSQL database. <br />
-                  Agents can login into the admin area and edit, update and delete real estate listings.
-                </p>
-                <h4 className="tech"><a className="project-link" href="http://horizonreal.estate/">Live</a>|<a class="gitlink" href="https://github.com/cschweipert/django-horizon"><i class="fab fa-github"></i></a></h4>
-              </div>
-            </div>
-            <a href="http://horizonreal.estate/" class="horizonBtn" title="Links to horizon website"> </a>
-            {/* <video src="/public/media/jobly-recording.mp4" loop autoplay playsinline></video> */}
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 
