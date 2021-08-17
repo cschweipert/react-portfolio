@@ -87,12 +87,12 @@ h1 {
 
 /* Responsive navbar */
 .mynav {
-  background-color: #333333;
+  background-color: #fff;
   z-index: 9999;
 }
 
 .mynav a {
-  color: #fff;
+  color: #012443;
 }
 
 li {
