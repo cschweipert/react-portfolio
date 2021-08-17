@@ -21,7 +21,7 @@ function Header() {
               <a class="nav-link" href="#about" tabindex="-1" aria-disabled="true">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./resume/resume_christinaschweipert.pdf" tabindex="-1" aria-disabled="true">RESUME</a>
+              <a class="nav-link" href="./resume/resume_christinaschweipert_old.pdf" tabindex="-1" aria-disabled="true">RESUME</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="mailto:c.schweipert@gmail.com" tabindex="-1" aria-disabled="true">GET IN TOUCH</a>
