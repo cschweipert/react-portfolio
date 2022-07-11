@@ -18,7 +18,7 @@ function Header() {
             <span class="fas fa-bars hamburger"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="nav navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#projects">
                   PROJECTS

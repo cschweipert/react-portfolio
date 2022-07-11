@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <Landing />
-      {/* <Header /> */}
+      <Header />
       <Projects />
       <Skills />
       <About />
