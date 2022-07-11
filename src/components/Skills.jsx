@@ -10,14 +10,16 @@ function Skills() {
           <ul className="skills-list">
             <li>
               {" "}
-              Web languages and technologies:<br></br>
+              Frontend:<br></br>
               <h4 className="h4top">
                 <i className="fab fa-js-square skills"></i>JavaScript
               </h4>
-              <h4>Typescript</h4>
               <h4>
-                <i className="fab fa-node skills"></i>Node.js
+                <i className="fab fa-react skills"></i>React
               </h4>
+              <h4>Typescript</h4>
+              <h4>GraphQL</h4>
+              <h4>jQuery</h4>
               <h4>
                 <i className="fab fa-html5 skills"></i>HTML5
               </h4>
@@ -26,23 +28,15 @@ function Skills() {
               </h4>
             </li>
             <li>
-              Libraries:<br></br>
-              <h4 className="h4top">
-                <i className="fab fa-react skills"></i>React
-              </h4>
-              <h4>jQuery</h4>
-              <h4>GraphQL</h4>
-            </li>
-            <li>
-              Programming languages:<br></br>
+              Backend:<br></br>
               <h4 className="h4top">
                 <i className="fab fa-python skills"></i>Python
               </h4>
-            </li>
-            <li>
-              Frameworks:<br></br>
-              <h4 className="h4top">Flask</h4>
-              <h4>Express.js</h4>
+              <h4>Flask</h4>
+              <h4>
+                <i className="fab fa-node skills"></i>Node.js/ <br />
+                <h4>Express.js</h4>
+              </h4>
               <h4>Django</h4>
             </li>
             <li>
@@ -50,6 +44,12 @@ function Skills() {
               <h4 className="h4top">Unittest</h4>
               <h4>Cypress</h4>
               <h4>Jest</h4>
+            </li>
+            <li>
+              DB:<br></br>
+              <h4 className="h4top">PostgreSQL</h4>
+              <h4>mySQL</h4>
+              <h4>MongoDB</h4>
             </li>
             <li>
               Collaboration:<br></br>
@@ -63,12 +63,6 @@ function Skills() {
               {/* <h4>
                 <i className="fab fa-sourcetree skills"></i>Sourcetree
               </h4> */}
-            </li>
-            <li>
-              DB:<br></br>
-              <h4 className="h4top">PostgreSQL</h4>
-              <h4>mySQL</h4>
-              <h4>MongoDB</h4>
             </li>
           </ul>
         </div>
