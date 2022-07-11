@@ -145,7 +145,7 @@ h2 {
 
 .row {
   margin: 30px auto;
-  max-width: 50rem;
+  /* max-width: 50rem; */
 }
 
 .techrow {
