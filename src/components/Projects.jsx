@@ -6,7 +6,7 @@ function Projects() {
       <div id="projects" class="container">
         <h2>PROJECTS.</h2>
         <div class="row">
-          <div class="col">
+          <div class="col-md">
             <div class="card">
               <div class="card-body">
                 <div class="listing-heading text-center">
@@ -50,10 +50,7 @@ function Projects() {
               {/* <video src="/public/media/jobly-recording.mp4" loop autoplay playsinline></video> */}
             </div>
           </div>
-        </div>
-
-        <div class="row">
-          <div class="col">
+          <div class="col-md">
             <div class="card">
               <div class="card-body">
                 <div class="listing-heading text-center">
