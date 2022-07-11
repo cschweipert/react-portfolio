@@ -24,9 +24,6 @@ function Skills() {
               <h4>
                 <i className="fab fa-css3-alt skills"></i>CSS3
               </h4>
-              <h4>
-                <i className="fab fa-bootstrap skills"></i>Bootstrap
-              </h4>
             </li>
             <li>
               Libraries:<br></br>
