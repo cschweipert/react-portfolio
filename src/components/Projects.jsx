@@ -1,61 +1,108 @@
 import React from "react";
 
 function Projects() {
-  return <div id="primary">
-    <div id="projects" class="container">
-      <h2>PROJECTS.</h2>
-      <div class="row">
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <div class="listing-heading text-center">
-                <h3>Real Estate Website</h3>
+  return (
+    <div id="primary">
+      <div id="projects" class="container">
+        <h2>PROJECTS.</h2>
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <div class="listing-heading text-center">
+                  <h3>Real Estate Website</h3>
+                </div>
+                <hr></hr>
+                <div class="row techrow">
+                  <h4 className="tech">Python, Django, Jinja, PostgreSQL</h4>
+                </div>
+                <div>
+                  <p className="project-p">
+                    A real estate website for a local real estate agency. <br />
+                    A Python-Django app with a PostgreSQL database. <br />
+                    Agents can login into the admin area and edit, update and
+                    delete real estate listings.
+                  </p>
+                  <h4 className="tech">
+                    <a
+                      className="project-link"
+                      href="http://horizonreal.estate/"
+                    >
+                      Live
+                    </a>
+                    |
+                    <a
+                      class="gitlink"
+                      href="https://github.com/cschweipert/django-horizon"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </h4>
+                </div>
               </div>
-              <hr></hr>
-              <div class="row techrow">
-                <h4 className="tech">Python, Django, Jinja, PostgreSQL, MLS PLugin</h4>
-              </div>
-              <div>
-                <p className="project-p">A real estate website for a local real estate agency. <br />
-                  A Python-Django app with a PostgreSQL database. <br />
-                  Agents can login into the admin area and edit, update and delete real estate listings.
-                </p>
-                <h4 className="tech"><a className="project-link" href="http://horizonreal.estate/">Live</a>|<a class="gitlink" href="https://github.com/cschweipert/django-horizon"><i class="fab fa-github"></i></a></h4>
-              </div>
+              <a
+                href="http://horizonreal.estate/"
+                class="horizonBtn"
+                title="Links to horizon website"
+              >
+                {" "}
+              </a>
+              {/* <video src="/public/media/jobly-recording.mp4" loop autoplay playsinline></video> */}
             </div>
-            <a href="http://horizonreal.estate/" class="horizonBtn" title="Links to horizon website"> </a>
-            {/* <video src="/public/media/jobly-recording.mp4" loop autoplay playsinline></video> */}
           </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <div class="listing-heading text-center">
-                <h3>Warbler</h3>
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <div class="listing-heading text-center">
+                  <h3>Warbler</h3>
+                </div>
+                <hr></hr>
+                <div class="row techrow">
+                  <h4 className="tech">Python, Flask, Jinja, PostgreSQL</h4>
+                </div>
+                <div>
+                  <p className="project-p">
+                    A Twitter clone with a Flask/ PostgreSQL backend and JS with
+                    Jinja templates in the front.<br></br>
+                    Authentication: User sign up, user login, delete user
+                    profile<br></br>
+                    Authorization: An authorized user can follow/ unfollow other
+                    users An authorized user can like/ unlike warbels (tweets)
+                    of followed users but not their own. An authorized user can
+                    edit their profile.
+                  </p>
+                  <h4 className="tech">
+                    <a
+                      className="project-link"
+                      href="https://christina-warbler.herokuapp.com"
+                    >
+                      Demo
+                    </a>
+                    |
+                    <a
+                      class="gitlink"
+                      href="https://github.com/cschweipert/flask-warbler"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </h4>
+                </div>
               </div>
-              <hr></hr>
-              <div class="row techrow">
-                <h4 className="tech">Python, Flask, Jinja, PostgreSQL</h4>
-              </div>
-              <div>
-                <p className="project-p">A Twitter clone with a Flask/ PostgreSQL backend and JS with Jinja templates in the front.<br></br>
-                  Authentication: User sign up, user login, delete user profile<br></br>
-                  Authorization: An authorized user can follow/ unfollow other users
-                  An authorized user can like/ unlike warbels (tweets) of followed users but not their own.
-                  An authorized user can edit their profile.
-                </p>
-                <h4 className="tech"><a className="project-link" href="https://christina-warbler.herokuapp.com">Demo</a>|<a class="gitlink" href="https://github.com/cschweipert/flask-warbler"><i class="fab fa-github"></i></a></h4>
-              </div>
+              <a
+                href="https://christina-warbler.herokuapp.com"
+                class="warblerBtn"
+                title="Link to warbler app"
+              >
+                {" "}
+              </a>
             </div>
-            <a href="https://christina-warbler.herokuapp.com" class="warblerBtn" title="Link to warbler app"> </a>
           </div>
         </div>
-      </div>
 
-      {/* <div class="col">
+        {/* <div class="col">
           <div class="card">
             <div class="card-body">
               <div class="listing-heading text-center">
@@ -89,10 +136,9 @@ function Projects() {
             <a href="https://bearsmart.herokuapp.com" class="projectBtn" title="Link to fruitsharing app"> </a>
           </div>
         </div> */}
-
+      </div>
     </div>
-  </div>
-
+  );
 }
 
 export default Projects;
