@@ -64,6 +64,16 @@ function Skills() {
                 <i className="fab fa-sourcetree skills"></i>Sourcetree
               </h4> */}
             </li>
+            <li>
+              AWS:<br></br>
+              <h4 className="h4top">S3</h4>
+              <h4>EC2</h4>
+              <h4>Lambdas</h4>
+              <h4>Kinesis</h4>
+              {/* <h4>
+                <i className="fab fa-sourcetree skills"></i>Sourcetree
+              </h4> */}
+            </li>
           </ul>
         </div>
       </div>
