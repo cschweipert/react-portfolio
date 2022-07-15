@@ -39,7 +39,7 @@ function Header() {
                   ABOUT
                 </a>
               </li>
-              <li class="nav-item">
+              {/* <li class="nav-item">
                 <a
                   class="nav-link"
                   href="./resume/resume_christinaschweipert.pdf"
@@ -48,7 +48,7 @@ function Header() {
                 >
                   RESUME
                 </a>
-              </li>
+              </li> */}
               <li class="nav-item">
                 <a
                   class="nav-link"
